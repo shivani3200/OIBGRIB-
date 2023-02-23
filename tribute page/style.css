@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Times, serif;
+    color: white;
+    background: #09556c64;
+}
+.description{
+    text-decoration: underline;
+}
+.header{
+    
+    font-size: 30px;
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header > .title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: #000;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    border-radius: 30px;
+
+    max-width: 100%;
+}
+.bio{
+    color: rgb(255, 255, 255);
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 60rem;
+}
+.bio > h2{
+    color: rgb(116, 86, 148);
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    line-height: 1.2;
+}
+.bio >p{
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+.bio > hr{
+    margin-top: 2rem;
+}
+.h3{
+    font-size: 2rem;
+    color: rgb(80, 80, 158);
+}
+.list{
+    font-size: 1.35rem;
+    box-sizing: border-box;
+}
